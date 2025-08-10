@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../src/App";
 import ErrorPage from "../src/components/ErrorPage";
 import About from "../src/components/About";
-import Body from "../src/components/Body/Body";
+import Body from "../src/components/body/Body";
 import NecklaceData from "../src/components/NecklaceData";
 export const appRoutes = createBrowserRouter([
   {
