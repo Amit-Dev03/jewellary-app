@@ -8,7 +8,7 @@ import {
   Twitter,
 } from "lucide-react";
 
-export default function JewelryFooter() {
+const Footer = () => {
   return (
     <footer className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
       {/* Main Footer Content */}
@@ -169,3 +169,5 @@ export default function JewelryFooter() {
     </footer>
   );
 }
+
+export default Footer;

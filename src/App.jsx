@@ -3,14 +3,14 @@ import Header from "./components/Header";
 import { Outlet } from "react-router-dom";
 import { Provider } from "react-redux";
 import appStore from "../utils/appStore";
-import JewelryFooter from "./components/Footer";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="m-0 p-0">
       <Provider store={appStore}>
         <Header />
         <Outlet />
-        <JewelryFooter />
+        <Footer />
       </Provider>
     </div>
   );
