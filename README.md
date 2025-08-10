@@ -273,6 +273,7 @@ The footer is fully responsive:
 - [Lucide React](https://lucide.dev/) - For beautiful icons
 - [Vite](https://vitejs.dev/) - For fast development experience
 - [React](https://reactjs.org/) - For the component-based architecture
+- Redux Tooklit - for effective state management
 
 ## 📞 Support
 
